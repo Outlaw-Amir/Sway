@@ -13,3 +13,5 @@ Cantarell
 JetbrainsMono
 
 Awesome-font
+
+* firefox theme : gruvbox brain
