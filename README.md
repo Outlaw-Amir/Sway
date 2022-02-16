@@ -14,4 +14,4 @@ JetbrainsMono
 
 Awesome-font
 
-* firefox theme : gruvbox brain
+* **firefox theme** : gruvbox brain
