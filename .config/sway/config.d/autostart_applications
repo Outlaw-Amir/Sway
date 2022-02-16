@@ -1,3 +1,5 @@
+#startup sound
+exec "mpv /home/amir/.sounds/konami.mp3"
 # Auth with polkit-gnome:
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 

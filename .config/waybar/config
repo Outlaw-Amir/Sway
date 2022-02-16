@@ -1,7 +1,7 @@
 // Global 
 {
     "layer": "top",
-    "position": "top",
+    "position": "bottom",
 
     // If heightR property would be not present, it'd be calculated dynamically
     "height": 30,
@@ -15,24 +15,23 @@
     ],
  
     "modules-center": [
-
     ],
 
     "modules-right": [
         //"custom/firefox",
-        "network",
+        "tray",
         "idle_inhibitor",
+        "network",
         //"memory",
-        "cpu",
+        //"cpu",
         "pulseaudio",
         //"custom/keyboard-layout",
         "battery",
         //"custom/PBPbattery",
-        //"backlight#icon",
-        //"backlight#value",
-        "clock",
-        "tray",
+        "backlight#icon",
+        "backlight#value",
         //"custom/weather",
+        "clock",
 	"custom/power",
     ],
 
@@ -67,9 +66,9 @@
 
     "clock": {
         "interval": 10,
-        "format-alt": " {:%e %b %Y}", // Icon: calendar-alt
-        "format": "{:%H:%M}",
-        "tooltip-format": "{:%e %B %Y}"
+        "format-alt": "{:%e %b %I:%M %p }", // Icon: calendar-alt
+        "format": " {:%I:%M %p }",
+        "tooltip-format": "{:%a %e %B %Y}",
     },
 
     "cpu": {
@@ -79,7 +78,7 @@
             "warning": 70,
             "critical": 90,
         },
-        "on-click": "xfce4-terminal -e 'htop'",
+        "on-click": "xfce4-terminal -e 'btop'",
     },
 
     "custom/keyboard-layout": {
@@ -125,7 +124,7 @@
 
     "sway/window": {
         "format": "{}",
-        "max-length": 60
+        "max-length": 90
     },
 
     "sway/workspaces": {
@@ -136,11 +135,18 @@
         //"format":"{icon}",
         "format-icons": {
             "1": "",
-            "2": "",
+            "2": "",
             "3": "",
             "4": "",
             "5": "",
-        }
+        },
+//        "persistent_workspaces": {
+//            "1": [],
+//            "2": [],
+//            "3": [],
+//            "4": [],
+//            "5": [],
+//        },
     },
 
     "pulseaudio": {
@@ -158,7 +164,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [""]
+            "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol",
         "on-scroll-up": "pamixer -ui 2",
@@ -180,7 +186,7 @@
 
     "backlight#icon": {
         "format": "{icon}",
-        "format-icons": [""],
+        "format-icons": [""],
         "on-scroll-down": "brightnessctl -c backlight set 1%-",
         "on-scroll-up": "brightnessctl -c backlight set +1%"
     },
@@ -210,7 +216,7 @@
     },
 
     "custom/launcher": {
-        "format":"       ",
+        "format":"        ",
         "on-click": "exec wofi -c ~/.config/wofi/config -I",
         "tooltip": false,
     },

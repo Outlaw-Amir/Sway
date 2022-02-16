@@ -1,8 +1,10 @@
 hide_search=true
 hide_scroll=true
 show=dmenu
+insensitive=true
 width=100
 lines=4
-location=top_right
-x=-120
-y=10
+prompt= Search
+location=bottom_right
+x=-110
+y=-70

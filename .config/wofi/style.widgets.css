@@ -8,12 +8,16 @@ Arc-Dark Color Scheme
 @define-color base3  #32302f;
 
 *{
-    font-family: UbuntuMono;
+    font-family: JetbrainsMono;
+    font-size: 12px;
 }
 
 #window {
     border: 1px solid @highlight;
-    margin: 0px 5px 0px 5px;
+/*    margin: 0px 5px 0px 5px; */
+    border-radius:15px;
+    background-color: @base2;
+
 }
 
 #inner-box {
@@ -24,22 +28,30 @@ Arc-Dark Color Scheme
     margin: 5px;
     padding:10px;
     background-color: @base2;
-    margin-top: -22px;
+/*    margin-top: -22px; */
 }
 
 #text {
     padding: 5px;
-    color: white;
+    color: #ebdbb2;
 }
+
+#text:selected {
+
+    color: @highlight;
+}
+
 
 #entry:nth-child(even) {
     background-color: @base1;
 }
 
 #entry {
-    background-color: @base3;
+    background-color: @base2;
 }
 
 #entry:selected {
-    background-color: @highlight;
+    background-color: @base2;
+    border: 2px solid @highlight;
+    border-radius:15;
 }

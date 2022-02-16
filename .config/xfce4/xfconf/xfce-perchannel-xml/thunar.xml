@@ -8,7 +8,8 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
   <property name="last-menubar-visible" type="bool" value="false"/>
-  <property name="last-separator-position" type="int" value="178"/>
+  <property name="last-separator-position" type="int" value="170"/>
   <property name="last-window-width" type="int" value="958"/>
   <property name="last-window-height" type="int" value="644"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
 </channel>

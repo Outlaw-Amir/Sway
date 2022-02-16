@@ -47,7 +47,7 @@ exec swayidle -w\
     bindsym $mod+d exec $menu
 
     # Activities
-    bindsym $mod+p exec ~/.config/wofi/windows.py
+    bindsym $mod+tab exec ~/.config/wofi/windows.py
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -231,13 +231,13 @@ bindsym $mod+r mode "resize"
 #
 # Volume
 #
-    #bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2
-    #bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2
-    #bindsym --locked XF86AudioMute exec pamixer -t
+    bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2
+    bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2
+    bindsym --locked XF86AudioMute exec pamixer -t
 
-    bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
-    bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
-    bindsym XF86AudioMute exec amixer sset Master toggle 
+   # bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+   # bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+   # bindsym XF86AudioMute exec amixer sset Master toggle 
 #
 # Player
 #
