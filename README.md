@@ -5,3 +5,11 @@
 * **Needed and recommended packages to install**:
 
 sway swaybg swaylock swayidle ly waybar wofi mako nm-applet xed pamixer qt5ct qt5-styleplugins thunar xfce4-terminal smplayer azote firefox eog
+
+* **Needed fonts to install**:
+
+Cantarell
+
+JetbrainsMono
+
+Awesome-font
