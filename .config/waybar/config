@@ -24,6 +24,7 @@
         "network",
         //"memory",
         //"cpu",
+        "custom/waybar-mpris",
         "pulseaudio",
         //"custom/keyboard-layout",
         "battery",
@@ -124,7 +125,7 @@
 
     "sway/window": {
         "format": "{}",
-        "max-length": 90
+        "max-length": 70
     },
 
     "sway/workspaces": {
@@ -135,7 +136,7 @@
         //"format":"{icon}",
         "format-icons": {
             "1": "",
-            "2": "",
+            "2": "",
             "3": "",
             "4": "",
             "5": "",
@@ -216,14 +217,33 @@
     },
 
     "custom/launcher": {
-        "format":"        ",
-        "on-click": "exec wofi -c ~/.config/wofi/config -I",
+        "format":"      ",
+        "on-click": "exec ~/.config/sway/scripts/wofitoggle.sh",
         "tooltip": false,
     },
 
     "custom/power": {
-        "format":"  ⏻  ",
+        "format":" ⏻  ",
         "on-click": "exec ~/.config/waybar/scripts/power-menu.sh",
         "tooltip": false,
     },
+
+   "custom/waybar-mpris": {
+        "format":"{}",
+        "max-length": 10 ,
+        "return-type": "json",
+        "exec": "waybar-mpris --position --autofocus --order SYMBOL:PLAYER ",
+        "on-click": "waybar-mpris --send toggle",
+            // This option will switch between players on right click.
+        "on-click-right": "waybar-mpris --send player-next",
+            // The options below will switch the selected player on scroll
+         "on-scroll-up": "waybar-mpris --send player-next",
+         "on-scroll-down": "waybar-mpris --send player-prev",
+            // The options below will go to next/previous track on scroll
+        //"on-scroll-up": "waybar-mpris --send next",
+        // "on-scroll-down": "waybar-mpris --send prev",
+        "escape": true,
+   },
+
+
 }

@@ -22,3 +22,7 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 #autotiling
 #exec autotiling
+
+#focus animation
+exec flashfocus -o 0.9 -t 350 -n 22
+

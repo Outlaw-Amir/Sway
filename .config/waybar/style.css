@@ -59,7 +59,7 @@ Arc-Dark Color Scheme
     color: @fg;
     background-color: @base1;
     font-family: JetbrainsMono;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -190,6 +190,7 @@ Arc-Dark Color Scheme
     /*background-color: @base2;*/
     border-radius: 50px;
     padding: 5px;
+    color:#A89984;
 }
 
 #workspaces {
@@ -206,7 +207,7 @@ Arc-Dark Color Scheme
 }
 
 #workspaces button.focused {
-    border-bottom: 3px solid  @highlight;
+    border-bottom: 0px solid  @highlight;
     margin-bottom: 1px;
     padding-left:0;
     color: @highlight;
@@ -221,15 +222,15 @@ Arc-Dark Color Scheme
     margin-left:0px;
     margin-right:0px;
     border-radius: 50px ;
-   /* background-color: @base2;*/
-    font-size: 15px;
+    /*background-color: @base2;*/
+    font-size: 17px;
     color: #FB4934;
 
 }
 
 #custom-launcher {
     color: @fg;
-    font-size:15px;
+    font-size:17px;
     margin-left:0px;
     margin-right:1px;
     background-color: @highlight;
@@ -263,7 +264,9 @@ Arc-Dark Color Scheme
 #idle_inhibitor.activated {
     color: @highlight;
 }
-#custom-firefox {
-    color: #c9545d;
-    font-size: 28px;
+
+#custom-waybar-mpris {
+   /* color:#A89984;*/
+    color:#83A598;
+    padding:5px;
 }
