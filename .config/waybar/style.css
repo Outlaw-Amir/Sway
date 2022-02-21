@@ -207,7 +207,7 @@ Arc-Dark Color Scheme
 }
 
 #workspaces button.focused {
-    border-bottom: 0px solid  @highlight;
+    border: 0px solid  @highlight;
     margin-bottom: 1px;
     padding-left:0;
     color: @highlight;
@@ -229,13 +229,12 @@ Arc-Dark Color Scheme
 }
 
 #custom-launcher {
-    color: @highlight;
+    color: #282828;
     font-size:17px;
-    margin-left:0px;
-    margin-right:0px;
-    /*background-color: @base2;*/
-    /*border-top-right-radius: 50px ;*/
-    /*border-bottom-right-radius: 50px ;*/
+    margin-left:5px;
+    margin-right:1px;
+    background-color: @highlight;
+    border-radius: 50px ;
 
 }
 

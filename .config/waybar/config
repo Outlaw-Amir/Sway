@@ -217,7 +217,7 @@
     },
 
     "custom/launcher": {
-        "format":"      ",
+        "format":"        ",
         "on-click": "exec ~/.config/sway/scripts/wofitoggle.sh",
         "tooltip": false,
     },
