@@ -229,13 +229,13 @@ Arc-Dark Color Scheme
 }
 
 #custom-launcher {
-    color: @fg;
+    color: @highlight;
     font-size:17px;
     margin-left:0px;
-    margin-right:1px;
-    background-color: @highlight;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px ;
+    margin-right:0px;
+    /*background-color: @base2;*/
+    /*border-top-right-radius: 50px ;*/
+    /*border-bottom-right-radius: 50px ;*/
 
 }
 
