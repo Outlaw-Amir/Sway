@@ -15,3 +15,9 @@ Cantarell
 JetbrainsMono
 
 Awesome-font
+
+* **Added GRUB theme in the folder "Other"**
+
+![background](https://user-images.githubusercontent.com/98311090/154964642-7e2b2cc8-12d5-42a2-9f94-4b7de5cfa31e.png)
+
+Copy the GrubTheme folder to /boot/grub/themes/ then apply it in grub-customizer.
