@@ -6,7 +6,7 @@
 
 * **Needed and recommended packages to install**:
 
-sway swaybg swaylock swayidle ly waybar wofi mako nm-applet xed pamixer qt5ct qt5-styleplugins thunar xfce4-terminal smplayer azote firefox eog flashfocus waybar-mpris
+sway swaybg swaylock swayidle ly waybar wofi mako nm-applet xed pamixer qt5ct qt5-styleplugins nemo xfce4-terminal smplayer azote firefox eog flashfocus waybar-mpris neovim
 
 * **Needed fonts to install**:
 
