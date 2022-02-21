@@ -1,8 +1,7 @@
 # Sway
-![01gruvbox-rice-sway](https://user-images.githubusercontent.com/98311090/154418936-4b4fcb3c-2c2e-45ef-8e5e-5c6d6b9c484b.png)
-![02](https://user-images.githubusercontent.com/98311090/154418961-456d0a04-7671-4763-aec5-bbaa8e5c5c87.png)
+![2022-02-21T17:11:03,904738740+03:30](https://user-images.githubusercontent.com/98311090/154966322-57348fa2-c4bc-43a6-b392-2094d96a737d.png)
 
-
+![2022-02-21T17:09:44,929060777+03:30](https://user-images.githubusercontent.com/98311090/154966353-a4bf57f6-cc3c-469f-b1df-2e3b68f0bde3.png)
 
 * **Needed and recommended packages to install**:
 
