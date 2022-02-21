@@ -5,4 +5,3 @@ export WLR_NO_HARDWARE_CURSORS=1
 #export WLR_NO_HARDWARE_CURSORS=0
 export WLR_RENDERER_ALLOW_SOFTWARE=1
 
-PF_INFO="os host kernel uptime pkgs memory"

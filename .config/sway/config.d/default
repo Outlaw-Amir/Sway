@@ -258,10 +258,12 @@ bindsym $mod+r mode "resize"
 #
 # App shortcuts
 #
-    bindsym $mod+n exec thunar
+    bindsym $mod+n exec nemo
     bindsym $mod+w exec firefox
     bindsym $mod+x exec smplayer
     bindsym $mod+g exec telegram-desktop 
+    bindsym $mod+alt+c exec  warp-cli connect
+    bindsym $mod+alt+d exec  warp-cli disconnect
 #
 # Screenshots
 #

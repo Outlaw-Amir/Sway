@@ -1,5 +1,5 @@
 #startup sound
-exec "mpv /home/amir/.sounds/konami.mp3"
+#exec "mpv /home/amir/.sounds/konami.mp3"
 # Auth with polkit-gnome:
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -24,5 +24,5 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 #exec autotiling
 
 #focus animation
-exec flashfocus -o 0.9 -t 350 -n 22
+#exec flashfocus
 
