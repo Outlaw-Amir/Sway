@@ -1,7 +1,9 @@
 # Sway
-![2022-02-21T18:00:03,334390744+03:30](https://user-images.githubusercontent.com/98311090/154974734-66338232-b94e-4a38-8e93-0db9ce1fc26b.png)
+![2022-02-21T19:45:49,871881579+03:30](https://user-images.githubusercontent.com/98311090/154992509-89b6032d-2ddb-459e-a1f9-dd9c8a13659b.png)
 
-![wofimenu2](https://user-images.githubusercontent.com/98311090/154977520-f93ee870-1b33-4f56-b36a-9af4f5ff53ec.png)
+![2022-02-21T19:34:34,717829215+03:30](https://user-images.githubusercontent.com/98311090/154990914-5a3ca538-9873-4902-85e8-4a0e145d5c40.png)
+
+![2022-02-21T19:35:16,460249734+03:30](https://user-images.githubusercontent.com/98311090/154990937-fa9581b6-7ba1-45a9-b432-644675f59762.png)
 
 
 * **Needed and recommended packages to install**:
