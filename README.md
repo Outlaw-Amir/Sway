@@ -9,7 +9,7 @@
 
 
 
-sway swaybg swaylock swayidle ly waybar wofi mako nm-applet xed pamixer qt5ct qt5-styleplugins nemo xfce4-terminal smplayer azote firefox eog flashfocus waybar-mpris neovim
+sway swaybg swaylock swayidle ly waybar i3blocks wofi mako nm-applet xed pamixer qt5ct qt5-styleplugins nemo xfce4-terminal smplayer azote firefox eog flashfocus waybar-mpris neovim
 
 * **Needed fonts to install**:
 
