@@ -107,7 +107,7 @@ strip_workspace_numbers yes
 bar {
    status_command i3blocks -c ~/.config/sway/i3blocks-2.conf
    font pango:Jetbrains Mono 10
-   height 28
+   height 30
    position top
    mode hide
    hidden_state hide
