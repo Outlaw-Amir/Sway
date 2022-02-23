@@ -6,7 +6,7 @@ gaps inner 6
 gaps outer 3
 
 # Smart Gaps
-#smart_gaps on
+smart_gaps on
 
 # Hide titlebar on windows:
 default_border pixel 2
@@ -83,8 +83,8 @@ bar {
 # When strip_workspace_numbers is set to yes,
 # any workspace that has a name of the form
 # “[n][:][NAME]” will display only the name.
-#strip_workspace_numbers yes
-strip_workspace_name yes
+strip_workspace_numbers yes
+#strip_workspace_name yes
 
 		    colors {
 		    separator          $purple
