@@ -2,11 +2,11 @@
 exec_always ~/.config/sway/scripts/import-gsettings
 
 # Set inner/outer gaps
-gaps inner 1
+gaps inner 6
 gaps outer 3
 
 # Smart Gaps
-smart_gaps on
+#smart_gaps on
 
 # Hide titlebar on windows:
 default_border pixel 2
@@ -26,7 +26,7 @@ exec bash /home/amir/.azotebg
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
 for_window [shell="x_wayland"] title_format "%class - %title"
-
+title_align center
 # class                 border  bground text    indicator child_border
 client.focused          #458588 #458588 #282828 #458588   #458588
 client.focused_inactive #458588 #458588 #282828 #458588   #458588
@@ -35,10 +35,91 @@ client.urgent           #44475A #FF5555 #ebdbb2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #ebdbb2 #282A36   #282A36
 client.background       #F8F8F2
 
+
+
+
+######################################
+# color settings for bar #
+######################################
+
+# Define colors variables:
+set $darkbluetrans	#282828FA
+set $darkblue		#282828
+set $lightblue		#ddd0c0
+set $urgentred		#C33027
+set $white		#A89984
+set $black		#000000
+set $purple		#3c3836
+set $darkgrey		#282828FA
+set $grey		#458588
+set $mediumgrey		#ebdbb2
+set $yellowbrown	#e1b700
+
 #
 # Status Bar:
 #
+
 # Read `man 5 sway-bar` for more information about this section.
+#bar {
+#    swaybar_command waybar
+#}
+
+
+############################################
+# bar settings (input comes from i3blocks) #
+############################################
+
+# Start i3bar to display a workspace bar
+# (plus the system information i3status finds out, if available)
 bar {
-    swaybar_command waybar
+		font pango:Jetbrains Mono 10
+		status_command i3blocks -c ~/.config/sway/i3blocks.conf
+		position top
+		height 30
+        workspace_min_width 30 px
+# it could be that you have no primary display set: set one (xrandr --output <output> --primary)
+		    tray_output none
+		    tray_padding 1
+# When strip_workspace_numbers is set to yes,
+# any workspace that has a name of the form
+# “[n][:][NAME]” will display only the name.
+#strip_workspace_numbers yes
+strip_workspace_name yes
+
+		    colors {
+		    separator          $purple
+		    background         $darkgrey
+		    statusline         $white
+#                   		border 		        bg		        text
+		focused_workspace	$darkgrey	     	$darkgrey		$grey
+		active_workspace	$lightblue      	$darkgrey	    $white
+		inactive_workspace	$darkgrey   		$darkgrey		$white
+		urgent_workspace	$urgentred	    	$urgentred		$white
+	}
 }
+
+# you can add different bars for multidisplay setups on each display:
+# set output HDMI-0 to the display you want the bar, --transparency can be set.
+# Transparency needs rgba color codes to be used where the last two letters are the transparency factor see here:
+# https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
+# #08052be6 --> e6=90%
+
+bar {
+   status_command i3blocks -c ~/.config/sway/i3blocks-2.conf
+   font pango:Jetbrains Mono 10
+   height 28
+   position top
+   mode hide
+   hidden_state hide
+   modifier Ctrl+Shift
+   tray_padding 5
+#   tray_bindcode 272 ContextMenu
+   icon_theme Papirus-Dark
+#   tray_output primary
+   workspace_buttons no
+  colors {
+        statusline $white
+         background        "#282828"
+         }  
+}
+

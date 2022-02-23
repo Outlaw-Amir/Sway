@@ -1,11 +1,6 @@
 # Initial Setup 
 # exec ~/set_once.sh
 
-#input
-input * {
-    xkb_layout "us,ir"
-    xkb_options "grp:alt_shift_toggle"
-}
 
 
 

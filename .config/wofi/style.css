@@ -4,7 +4,7 @@ Arc-Dark Color Scheme
 */
 
 @define-color highlight #458588;
-@define-color base1  rgba(40 ,40 ,40 ,0.86 );
+@define-color base1  rgba(40 ,40 ,40 ,0.98 );
 @define-color base2  rgba(40 ,40 ,40 ,0.98 );
 @define-color base3  rgba(50 ,48 ,47 ,1.0 );
 
@@ -15,7 +15,7 @@ Arc-Dark Color Scheme
 
 window {
     border: 2px solid @highlight;
-    border-radius: 15px;  
+    border-radius: 10px;  
     background-color: @base2;
 
 }
@@ -23,9 +23,9 @@ window {
 #input {
     margin-bottom: 15px;
     padding:2px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 0px solid @highlight;
-    color: white;
+    color: #ebdbb2;
     background-color: @base3;
 }
 
@@ -42,25 +42,24 @@ window {
 
 #text {
     padding:0px;
-    color: #ebdbb2;
+    color: #A89984;
 }
 
 #text:selected {
-
     color: @highlight;
 }
 
 #entry {
     padding:10px;
-    border-radius:15;
+    border-radius:0px;
 }
 
 #entry:nth-child(even) {
 }
 
 #entry:selected {
-    background-color: @base2;
+    background-color: transparent;
     border: 2px solid @highlight;
-    border-radius:15;
+    border-radius:10px;
 }
 

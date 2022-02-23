@@ -14,7 +14,7 @@ Arc-Dark Color Scheme
 #window {
     border: 1px solid @highlight;
     margin: 0px 5px 0px 5px;
-    border-radius:15px;
+    border-radius:10px;
     background-color: @base2;
 
 }
@@ -32,7 +32,7 @@ Arc-Dark Color Scheme
 
 #text {
     padding: 5px;
-    color: #ebdbb2;
+    color: #A89984;
 }
 
 #text:selected {
@@ -48,7 +48,7 @@ Arc-Dark Color Scheme
 }
 
 #entry:selected {
-    background-color: @base2;
-    border: 2px solid @highlight;
-    border-radius:15;
+    background-color: transparent;
+    border: 1px solid @highlight;
+    border-radius:10px;
 }

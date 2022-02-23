@@ -10,6 +10,15 @@ input type:touchpad {
     natural_scroll disabled
 }
 
+input * xkb_numlock enable
+
+
+#input
+input * {
+    xkb_layout "us,ir"
+    xkb_options "grp:alt_shift_toggle"
+}
+
 # Read `man 5 sway-input` for more information about this section.
 #
 #input type:keyboard { xkb_layout us,ir xkb_options grp:alt_shift_toggle }

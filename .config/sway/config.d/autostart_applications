@@ -25,4 +25,3 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 #focus animation
 #exec flashfocus
-
