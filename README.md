@@ -1,8 +1,5 @@
 # Sway
 
-![2022-02-23T20:56:00,356065356+03:30](https://user-images.githubusercontent.com/98311090/155373400-54f42042-fbff-4e62-a357-c85e453b3c98.png)
-![2022-02-23T20:50:34,779138960+03:30](https://user-images.githubusercontent.com/98311090/155373493-2dda00ff-6f11-4924-88ca-b76f609a5dcc.png)
-![2022-02-23T20:53:07,372415851+03:30](https://user-images.githubusercontent.com/98311090/155373462-2061786b-b9d7-4a7c-b168-f5515c412775.png)
 
 
 * **Needed and recommended packages to install**:
