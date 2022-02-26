@@ -4,13 +4,13 @@ Arc-Dark Color Scheme
 */
 
 @define-color highlight #458588;
-@define-color base1  rgba(40 ,40 ,40 ,0.98 );
-@define-color base2  rgba(40 ,40 ,40 ,0.98 );
+@define-color base1  rgba(40 ,40 ,40 ,1.0 );
+@define-color base2  rgba(40 ,40 ,40 ,1.0 );
 @define-color base3  rgba(50 ,48 ,47 ,1.0 );
 
 *{
     font-family: JetbrainsMono;
-    font-size: 14px ;
+    font-size: 12px ;
 }
 
 window {

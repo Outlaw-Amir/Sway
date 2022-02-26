@@ -4,8 +4,8 @@
     "position": "bottom",
 
     // If heightR property would be not present, it'd be calculated dynamically
-    "height": 30,
-    "width" : 10,
+    "height": 40,
+    "width" : 1920,
 
     "modules-left": [
         "custom/launcher",
@@ -31,8 +31,8 @@
         //"custom/PBPbattery",
         "backlight#icon",
         "backlight#value",
-        //"custom/weather",
         "clock",
+        //"custom/weather",
 	"custom/power",
     ],
 
@@ -67,8 +67,8 @@
 
     "clock": {
         "interval": 10,
-        "format-alt": "{:%e %b %I:%M %p }", // Icon: calendar-alt
-        "format": " {:%I:%M %p }",
+        "format-alt": "{:%e %b %I:%M %p}", // Icon: calendar-alt
+        "format": "  {:%I:%M %p} ",
         "tooltip-format": "{:%a %e %B %Y}",
     },
 
@@ -138,8 +138,8 @@
             "1": "",
             "2": "",
             "3": "",
-            "4": "",
-            "5": "",
+            "4": "",
+            "5": "",
         },
 //        "persistent_workspaces": {
 //            "1": [],
@@ -217,7 +217,7 @@
     },
 
     "custom/launcher": {
-        "format":"        ",
+        "format":"      ",
         "on-click": "exec ~/.config/sway/scripts/wofitoggle.sh",
         "tooltip": false,
     },
