@@ -12,7 +12,7 @@ Arc-Dark Color Scheme
 }
 
 #window {
-    border: 1px solid @highlight;
+    border: 2px solid @highlight;
     margin: 0px 5px 0px 5px;
     border-radius:10px;
     background-color: @base2;
@@ -49,6 +49,6 @@ Arc-Dark Color Scheme
 
 #entry:selected {
     background-color: transparent;
-    border: 1px solid @highlight;
+    border: 2px solid @highlight;
     border-radius:10px;
 }
