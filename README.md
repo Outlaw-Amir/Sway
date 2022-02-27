@@ -1,5 +1,7 @@
 # Sway
-![2022-02-27T12:06:40,406444796+03:30](https://user-images.githubusercontent.com/98311090/155875978-ae894be4-3fe8-45a0-a643-c704908aa8ef.png)
+![2022-02-27T13:04:28,492552525+03:30](https://user-images.githubusercontent.com/98311090/155877098-55c5d68c-a0a2-4ac5-b7e3-f01b27267244.png)
+![2022-02-27T13:02:07,073968238+03:30](https://user-images.githubusercontent.com/98311090/155877132-6715a136-8194-4b32-8ede-18eee2d18d30.png)
+
 
 
 
