@@ -51,6 +51,7 @@ call plug#end()
 let g:gruvbox_contrast_dark='medium'
 colorscheme gruvbox
 set background=dark 
+autocmd VimEnter * hi normal ctermbg=none
 
 " Shortcuts -----------------------------------------------------------
 

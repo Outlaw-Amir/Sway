@@ -15,7 +15,7 @@ Arc-Dark Color Scheme
 */
 @define-color highlight #458588 ;
 @define-color fg #ebdbb2 ;
-@define-color base1 rgba(40 ,40 ,40 ,1 ) ;
+@define-color base1 rgba(40 ,40 ,40 ,0.95 ) ;
 @define-color base2 #3c3836;
 
 @keyframes blink-warning {
@@ -53,6 +53,7 @@ Arc-Dark Color Scheme
     padding: 0;
 }
 
+
 /* The whole bar */
 #waybar {
     background: transparent;
@@ -82,7 +83,7 @@ Arc-Dark Color Scheme
   {
     padding:0.5rem 0.6rem;
     margin: 1px 5px;
-   /* background-color: @base2;*/
+    /*background-color: @base2;*/
 
 }
 
@@ -201,6 +202,7 @@ Arc-Dark Color Scheme
 #workspaces button {
     border-bottom: 0px solid transparent;
     margin: 1px 5px;
+    min-width:32px;
     background-color: @base2; 
     border-radius: 50px;
     padding:0px;
@@ -209,7 +211,7 @@ Arc-Dark Color Scheme
 
 #workspaces button.focused {
     border: 0px solid  @highlight;
-    margin-bottom: 1px;
+    /*margin-bottom: 1px;*/
     padding-left:0;
     color: @highlight;
 }
@@ -217,6 +219,10 @@ Arc-Dark Color Scheme
 #workspaces button.urgent {
     border-color: #c9545d;
     color: #c9545d;
+}
+
+#custom-keyboard-layout {
+    color:#bbbbbb;
 }
 
 #custom-power {

@@ -2,8 +2,8 @@
 exec_always ~/.config/sway/scripts/import-gsettings
 
 # Set inner/outer gaps
-gaps inner 2
-gaps outer 0
+gaps inner 6
+gaps outer 3
 
 # Smart Gaps
 smart_gaps on

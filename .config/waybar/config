@@ -4,7 +4,7 @@
     "position": "bottom",
 
     // If heightR property would be not present, it'd be calculated dynamically
-    "height": 40,
+    "height": 24,
     "width" : 1920,
 
     "modules-left": [
@@ -18,15 +18,14 @@
     ],
 
     "modules-right": [
-        //"custom/firefox",
         "tray",
         "idle_inhibitor",
-        "network",
         //"memory",
         //"cpu",
+        "network",
+        "custom/keyboard-layout",
         "custom/waybar-mpris",
         "pulseaudio",
-        //"custom/keyboard-layout",
         "battery",
         //"custom/PBPbattery",
         "backlight#icon",
@@ -74,7 +73,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "  {usage}% ({load})", // Icon: microchip
+        "format": "  {usage}%", // Icon: microchip
         "states": {
             "warning": 70,
             "critical": 90,
@@ -90,13 +89,13 @@
         // Signal sent by Sway key binding (~/.config/sway/key-bindings)
         "signal": 1, // SIGHUP
         "tooltip": false,
-        "on-click": "~/.config/waybar/scripts/keyhint.sh",
+       // "on-click": "",
     },
 
     "memory": {
         "interval": 5,
         "format": " {}%", // Icon: memory
-        "on-click": "xfce4-terminal -e 'htop'", 
+        "on-click": "xfce4-terminal -e 'btop'", 
         "states": {
             "warning": 70,
             "critical": 90

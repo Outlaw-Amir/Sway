@@ -45,6 +45,7 @@ exec swayidle -w\
 
     # Start your launcher
     bindsym $mod+d exec $menu
+    #bindsym menu exec ~/.config/sway/scripts/wofitoggle.sh
 
     # Activities
     bindsym $mod+tab exec ~/.config/wofi/windows.py
