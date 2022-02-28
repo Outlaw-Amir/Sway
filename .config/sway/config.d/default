@@ -262,7 +262,7 @@ bindsym $mod+r mode "resize"
 #
     bindsym --locked XF86AudioRaiseVolume exec pamixer -ui 2 
     bindsym --locked XF86AudioLowerVolume exec pamixer -ud 2 
-    bindsym --locked XF86AudioMute exec pamixer -t
+    bindsym --locked XF86AudioMute exec pamixer -t 
 
    # bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
    # bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
@@ -282,14 +282,14 @@ bindsym $mod+r mode "resize"
 #
 # Backlight
 #
-    bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
-    bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
+    bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5% 
+    bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%- 
 #
 # App shortcuts
 #
     bindsym $mod+n exec nemo
     bindsym $mod+w exec firefox
-    bindsym $mod+x exec smplayer
+    bindsym $mod+x exec celluloid
     bindsym $mod+g exec telegram-desktop 
     bindsym $mod+alt+c exec  warp-cli connect
     bindsym $mod+alt+d exec  warp-cli disconnect

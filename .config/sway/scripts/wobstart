@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+mkfifo  $XDG_RUNTIME_DIR/wob.sock
+tail -f $XDG_RUNTIME_DIR/wob.sock | wob --width 288 --height 32 --anchor bottom --margin 118 --background-color=#282828FF --bar-color=#458588FF --border-color=#458588FF --border 2 --timeout 450

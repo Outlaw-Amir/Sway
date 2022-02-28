@@ -20,8 +20,15 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 # Sway Fader
 # exec python3 ~/.config/sway/scripts/swayfader.py     
 
-#autotiling
+# autotiling
 #exec autotiling
 
-#focus animation
+# focus animation
 #exec flashfocus
+
+# wob overlay 
+# needs setting the bindsym according to the wob github page 
+# install wob from github or aur
+
+#set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
+#exec ~/.config/sway/scripts/wobstart
